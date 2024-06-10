@@ -10,12 +10,6 @@ See it in action (2min video):
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=d30QDrKyQkg" target="_blank"><img src="http://img.youtube.com/vi/d30QDrKyQkg/0.jpg" alt="CG++ Data over sound" width="360" height="270" border="10" /></a>
 
-Try it yourself: [ggerganov.github.io/wave-share](https://ggerganov.github.io/wave-share)
-
-**Latest news:** \
-I've extracted the data-over-sound algorithm into a standalone library called [ggwave](https://github.com/ggerganov/ggwave).\
-It can be embedded easily into other projects.
-
 ## How it works
 
 The [WebRTC](https://en.wikipedia.org/wiki/WebRTC) technology allows two browsers running on different devices to connect with each other and exchange data. There is no need to install plugins or download applications. To initiate the connection, the peers exchange contact information (ip address, network ports, session id, etc.). This process is called "signaling". The WebRTC specification does not define any standard for signaling - the contact exchange can be achieved by any protocol or technology.
