@@ -1,4 +1,4 @@
-# wave-share
+# AudioShare
 
 A proof-of-concept for WebRTC signaling using sound. Works with all devices that have microphone + speakers. Runs in the
 browser.
